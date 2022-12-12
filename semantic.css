@@ -21,4 +21,47 @@ nav{
     background-color: #bc6bfa;
     padding: 20px;
     font-size: 20px;
+    color: aliceblue;
+}
+
+nav a {
+    color: aliceblue;
+
+    text-decoration: underline; /*?Alt cizgili*/
+    text-decoration: overline; /*?Ust cizgili*/
+    text-decoration: line-through; /*?Uzeri cizgili*/
+    text-decoration: none; /*?Cizgi kaldirildi*/
+}
+
+/*? ziyaret edilmemiş link stilleri */
+/* nav a:link {
+    color: green;
+}
+
+/*? ziyaret edilmis link stilleri */
+/* nav a:visited {
+    color: yellow;
+} */
+
+/*? Linkin tikli kaldi sure boyuncaki stili */
+/* nav a:active {
+    color: red;
+} */
+
+/*? Linkin uzerine gelindiginde */
+nav a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+figcaption {
+    margin-bottom: 30px;
+}
+footer{
+    background: rgba(0, 0, 0, 0.291);
+    padding: 20px;
+    color: white;
 }
